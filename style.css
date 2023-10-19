@@ -23,14 +23,14 @@
 
 ::-webkit-scrollbar{
     height: 0;
-    width: 0.5;
+    width: .5rem;
 }
 
 ::-webkit-scrollbar-track{
     background: var(--secon-bg-color);
 }
 
-::webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
     background: var(--hover-color);
     border-radius: 5rem;
 }
