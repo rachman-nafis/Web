@@ -192,7 +192,7 @@ section{
     height: 45px;
 }
 
-.btn-box a.btn{
+.btn-box .btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -211,11 +211,11 @@ section{
     border: 2px solid var(--hover-color);
 }
 
-a.btn:hover{
+.btn:hover{
     color: var(--hover-color);
 }
 
-a.btn::before{
+.btn::before{
     content: "";
     position: absolute;
     top: 0;
@@ -227,20 +227,20 @@ a.btn::before{
     transition: .4s;
 }
 
-a.btn:hover::before{
+.btn:hover::before{
     width: 100%;
 }
 
-a.btn:nth-child(2){
+.btn:nth-child(2){
     background: var(--bg-color);
     color: var(--hover-color);
 }
 
-a.btn:nth-child(2):hover{
+.btn:nth-child(2):hover{
     color: var(--bg-color);
 }
 
-a.btn:nth-child(2)::before{
+.btn:nth-child(2)::before{
     background: var(--hover-color);
 }
 
