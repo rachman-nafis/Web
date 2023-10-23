@@ -192,7 +192,7 @@ section{
     height: 45px;
 }
 
-.btn-box .btn{
+.btn-box a.btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -211,11 +211,11 @@ section{
     border: 2px solid var(--hover-color);
 }
 
-.btn:hover{
+a.btn:hover{
     color: var(--hover-color);
 }
 
-.btn::before{
+a.btn::before{
     content: "";
     position: absolute;
     top: 0;
@@ -227,20 +227,20 @@ section{
     transition: .4s;
 }
 
-.btn:hover::before{
+a.btn:hover::before{
     width: 100%;
 }
 
-.btn:nth-child(2){
+a.btn:nth-child(2){
     background: var(--bg-color);
     color: var(--hover-color);
 }
 
-.btn:nth-child(2):hover{
+a.btn:nth-child(2):hover{
     color: var(--bg-color);
 }
 
-.btn:nth-child(2)::before{
+a.btn:nth-child(2)::before{
     background: var(--hover-color);
 }
 
